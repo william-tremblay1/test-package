@@ -16,4 +16,12 @@
   <build>
     <sourceDirectory>src</sourceDirectory>
   </build>
+
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub OWNER Apache Maven Packages</name>
+      <url>https://maven.pkg.github.com/william-tremblay1/mvn-test</url>
+    </repository>
+  </distributionManagement>
 </project>
